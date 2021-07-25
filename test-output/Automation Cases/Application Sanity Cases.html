@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Application Sanity Cases</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>10/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Jul 24 12:06:59 IST 2021</td>
+<td>Started on:</td><td>Sun Jul 25 09:24:26 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>72 seconds (72777 ms)</td>
+<tr><td>Total time:</td><td>100 seconds (100436 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,88 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.demo.qa.testcases.Blueapron_Tests.testScriptCall1()'><b>testScriptCall1</b><br>Test class: com.demo.qa.testcases.Blueapron_Tests<br>Test method: Verify User lands on Pricing Page</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 20.000
-  (Session info: chrome=92.0.4515.107)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-CI3J417&apos;, ip: &apos;172.29.144.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\Navee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49710}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4454483ff9c16b96a0f88d278feabf61
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at com.demo.qa.pages.Blueapron_HomePage.verifyPricingPageOpenSuccessfully(Blueapron_HomePage.java:42)
-	at com.demo.qa.testcases.Blueapron_Tests.testScriptCall1(Blueapron_Tests.java:29)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1982958205", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1982958205'><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 20.000
-  (Session info: chrome=92.0.4515.107)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-CI3J417&apos;, ip: &apos;172.29.144.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\Navee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49710}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4454483ff9c16b96a0f88d278feabf61
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at com.demo.qa.pages.Blueapron_HomePage.verifyPricingPageOpenSuccessfully(Blueapron_HomePage.java:42)
-	at com.demo.qa.testcases.Blueapron_Tests.testScriptCall1(Blueapron_Tests.java:29)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:766)
-	at org.testng.TestRunner.run(TestRunner.java:587)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-	at org.testng.TestNG.runSuites(TestNG.java:1039)
-	at org.testng.TestNG.run(TestNG.java:1007)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>33</td>
-<td>com.demo.qa.testcases.Blueapron_Tests@4da4253</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -157,55 +75,60 @@ Session ID: 4454483ff9c16b96a0f88d278feabf61
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.demo.qa.testcases.Blueapron_Tests.testScriptCall1()'><b>testScriptCall1</b><br>Test class: com.demo.qa.testcases.Blueapron_Tests<br>Test method: Verify User lands on Pricing Page</td>
+<td></td>
+<td>29</td>
+<td>com.demo.qa.testcases.Blueapron_Tests@482bce4f</td></tr>
+<tr>
 <td title='com.demo.qa.testcases.Blueapron_Tests.testScriptCall2()'><b>testScriptCall2</b><br>Test class: com.demo.qa.testcases.Blueapron_Tests<br>Test method: Verify Cost And Shipping Charges For 2-Serving Signature</td>
 <td></td>
-<td>10</td>
-<td>com.demo.qa.testcases.Blueapron_Tests@4da4253</td></tr>
+<td>20</td>
+<td>com.demo.qa.testcases.Blueapron_Tests@482bce4f</td></tr>
 <tr>
 <td title='com.demo.qa.testcases.Blueapron_Tests.testScriptCall3()'><b>testScriptCall3</b><br>Test class: com.demo.qa.testcases.Blueapron_Tests<br>Test method: Verify Cost And Shipping Charges</td>
 <td></td>
 <td>0</td>
-<td>com.demo.qa.testcases.Blueapron_Tests@4da4253</td></tr>
+<td>com.demo.qa.testcases.Blueapron_Tests@482bce4f</td></tr>
 <tr>
 <td title='com.demo.qa.testcases.Blueapron_Tests.testScriptCall4()'><b>testScriptCall4</b><br>Test class: com.demo.qa.testcases.Blueapron_Tests<br>Test method: Change 2-Serving Signature from three recipes to two recipes per week</td>
 <td></td>
 <td>0</td>
-<td>com.demo.qa.testcases.Blueapron_Tests@4da4253</td></tr>
+<td>com.demo.qa.testcases.Blueapron_Tests@482bce4f</td></tr>
 <tr>
 <td title='com.demo.qa.testcases.Blueapron_Tests.testScriptCall5()'><b>testScriptCall5</b><br>Test class: com.demo.qa.testcases.Blueapron_Tests<br>Test method: change 4-Serving Signature from two to three recipes per week</td>
 <td></td>
 <td>1</td>
-<td>com.demo.qa.testcases.Blueapron_Tests@4da4253</td></tr>
+<td>com.demo.qa.testcases.Blueapron_Tests@482bce4f</td></tr>
 <tr>
 <td title='com.demo.qa.testcases.Blueapron_Tests.testScriptCall6()'><b>testScriptCall6</b><br>Test class: com.demo.qa.testcases.Blueapron_Tests<br>Test method: Verify Cost and Shipping Charges after changing per week for 2-Serving Signature</td>
 <td></td>
-<td>10</td>
-<td>com.demo.qa.testcases.Blueapron_Tests@4da4253</td></tr>
+<td>20</td>
+<td>com.demo.qa.testcases.Blueapron_Tests@482bce4f</td></tr>
 <tr>
 <td title='com.demo.qa.testcases.Blueapron_Tests.testScriptCall7()'><b>testScriptCall7</b><br>Test class: com.demo.qa.testcases.Blueapron_Tests<br>Test method: Verify Cost and Shipping Charges after changing per week for 4-Serving Signature</td>
 <td></td>
 <td>0</td>
-<td>com.demo.qa.testcases.Blueapron_Tests@4da4253</td></tr>
+<td>com.demo.qa.testcases.Blueapron_Tests@482bce4f</td></tr>
 <tr>
 <td title='com.demo.qa.testcases.Blueapron_Tests.testScriptCall8()'><b>testScriptCall8</b><br>Test class: com.demo.qa.testcases.Blueapron_Tests<br>Test method: Click Select Button for Any Item</td>
 <td></td>
-<td>4</td>
-<td>com.demo.qa.testcases.Blueapron_Tests@4da4253</td></tr>
+<td>5</td>
+<td>com.demo.qa.testcases.Blueapron_Tests@482bce4f</td></tr>
 <tr>
 <td title='com.demo.qa.testcases.Blueapron_Tests.testScriptCall9()'><b>testScriptCall9</b><br>Test class: com.demo.qa.testcases.Blueapron_Tests<br>Test method: Verif User is on Signup Page</td>
 <td></td>
-<td>10</td>
-<td>com.demo.qa.testcases.Blueapron_Tests@4da4253</td></tr>
+<td>20</td>
+<td>com.demo.qa.testcases.Blueapron_Tests@482bce4f</td></tr>
 <tr>
 <td title='com.demo.qa.testcases.Blueapron_Tests.testScriptCall_1()'><b>testScriptCall_1</b><br>Test class: com.demo.qa.testcases.Blueapron_Tests<br>Test method: Verif Apple SignUp Button Is Displayed</td>
 <td></td>
 <td>0</td>
-<td>com.demo.qa.testcases.Blueapron_Tests@4da4253</td></tr>
+<td>com.demo.qa.testcases.Blueapron_Tests@482bce4f</td></tr>
 <tr>
 <td title='com.demo.qa.testcases.Blueapron_Tests.testScriptCall_2()'><b>testScriptCall_2</b><br>Test class: com.demo.qa.testcases.Blueapron_Tests<br>Test method: Verify Error When click the Continue button without entering the email address</td>
 <td></td>
 <td>1</td>
-<td>com.demo.qa.testcases.Blueapron_Tests@4da4253</td></tr>
+<td>com.demo.qa.testcases.Blueapron_Tests@482bce4f</td></tr>
 </table><p>
 </body>
 </html>

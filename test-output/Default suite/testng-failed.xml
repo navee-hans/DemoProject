@@ -3,14 +3,24 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.demo.qa.testcases.BlueaPron">
+      <class name="com.demo.qa.testcases.Blueapron_Tests">
         <methods>
+          <include name="testScriptCall1"/>
+          <include name="testScriptCall_1"/>
+          <include name="testScriptCall2"/>
+          <include name="testScriptCall_2"/>
+          <include name="testScriptCall5"/>
+          <include name="testScriptCall6"/>
+          <include name="testScriptCall3"/>
+          <include name="testScriptCall4"/>
+          <include name="testScriptCall9"/>
+          <include name="testScriptCall7"/>
+          <include name="testScriptCall8"/>
           <include name="getConfig"/>
           <include name="tearDown"/>
-          <include name="launch"/>
-          <include name="testScriptCall1"/>
+          <include name="Ab"/>
         </methods>
-      </class> <!-- com.demo.qa.testcases.BlueaPron -->
+      </class> <!-- com.demo.qa.testcases.Blueapron_Tests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

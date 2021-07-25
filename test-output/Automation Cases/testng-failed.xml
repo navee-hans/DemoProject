@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="1" name="Failed suite [Automation Cases]" guice-stage="DEVELOPMENT">
+<suite thread-count="1" parallel="methods" name="Failed suite [Automation Cases]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="com.demo.ExtentReportListener.ExtentReporterNG"/>
     <listener class-name="com.demo.qa.util.CustomITestListener"/>
   </listeners>
-  <test thread-count="1" name="Application Sanity Cases(failed)">
+  <test thread-count="1" parallel="methods" name="Application Sanity Cases(failed)">
     <classes>
       <class name="com.demo.qa.testcases.Blueapron_Tests">
         <methods>
           <include name="getConfig"/>
           <include name="tearDown"/>
           <include name="testScriptCall1"/>
+          <include name="testScriptCall2"/>
+          <include name="testScriptCall_2"/>
+          <include name="testScriptCall5"/>
+          <include name="testScriptCall6"/>
+          <include name="testScriptCall3"/>
+          <include name="testScriptCall4"/>
+          <include name="testScriptCall7"/>
+          <include name="testScriptCall8"/>
         </methods>
       </class> <!-- com.demo.qa.testcases.Blueapron_Tests -->
     </classes>

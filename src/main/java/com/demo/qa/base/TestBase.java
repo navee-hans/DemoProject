@@ -11,6 +11,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
@@ -35,10 +36,6 @@ public class TestBase {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-	}
-	
-	@BeforeMethod
-	public void Ab() {
 		String browserName = prop.getProperty("browser");
 		
 		if(browserName.equals("chrome")){
@@ -52,11 +49,26 @@ public class TestBase {
 		getDriver().get(prop.getProperty("url"));
 	}
 	
+//	@BeforeMethod
+//	public void Ab() {
+//		String browserName = prop.getProperty("browser");
+//		
+//		if(browserName.equals("chrome")){
+//			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/Drivers/Chrome/chromedriver.exe");	
+//			webdriverThreadLocal.set(new ChromeDriver());
+//		}
+//		getDriver().manage().window().maximize();
+//		getDriver().manage().deleteAllCookies();
+//		getDriver().manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
+//		getDriver().manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
+//		getDriver().get(prop.getProperty("url"));
+//	}
+	
 	public static WebDriver getDriver() {
 		return webdriverThreadLocal.get();
 	}
 	
-	@AfterMethod
+	@AfterSuite
 	public void tearDown(){
 		getDriver().quit();
 		webdriverThreadLocal.remove();
