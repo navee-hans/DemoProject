@@ -9,6 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -18,12 +19,15 @@ import org.testng.annotations.BeforeSuite;
 import com.demo.qa.util.TestUtil;
 import com.demo.qa.util.WebEventListener;
 
+import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
+
 public class TestBase {
 	
 	public static Properties prop;
 	public  static EventFiringWebDriver e_driver;
 	public static WebEventListener eventListener;
 	public static ThreadLocal<WebDriver> webdriverThreadLocal = new ThreadLocal<WebDriver>();
+	private WebDriver driver;
 	
 	@BeforeSuite
 	public void getConfig(){
@@ -36,6 +40,15 @@ public class TestBase {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		
+//		System.setProperty("headless", "false"); // You can set this property elsewhere
+//        String headless = System.getProperty("headless");
+        ChromeDriverManager.chromedriver();
+        ChromeOptions chromeOptions = new ChromeOptions();
+//        chromeOptions.addArguments("--headless");
+        webdriverThreadLocal.set(new ChromeDriver(chromeOptions));
+
+		
 		String browserName = prop.getProperty("browser");
 		
 		if(browserName.equals("chrome")){

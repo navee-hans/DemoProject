@@ -2,60 +2,60 @@
 <testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-25T09:24:26 IST" name="Automation Cases" finished-at="2021-07-25T09:26:07 IST" duration-ms="100436">
+  <suite started-at="2021-07-27T19:40:42 IST" name="Automation Cases" finished-at="2021-07-27T19:42:26 IST" duration-ms="104247">
     <groups>
     </groups>
-    <test started-at="2021-07-25T09:24:26 IST" name="Application Sanity Cases" finished-at="2021-07-25T09:26:07 IST" duration-ms="100436">
+    <test started-at="2021-07-27T19:40:42 IST" name="Application Sanity Cases" finished-at="2021-07-27T19:42:26 IST" duration-ms="104247">
       <class name="com.demo.qa.testcases.Blueapron_Tests">
-        <test-method is-config="true" signature="getConfig()[pri:0, instance:com.demo.qa.testcases.Blueapron_Tests@482bce4f]" started-at="2021-07-25T09:24:19 IST" name="getConfig" finished-at="2021-07-25T09:24:26 IST" duration-ms="7163" status="PASS">
+        <test-method is-config="true" signature="getConfig()[pri:0, instance:com.demo.qa.testcases.Blueapron_Tests@140c9f39]" started-at="2021-07-27T19:40:23 IST" name="getConfig" finished-at="2021-07-27T19:40:42 IST" duration-ms="18612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getConfig -->
-        <test-method signature="testScriptCall1()[pri:0, instance:com.demo.qa.testcases.Blueapron_Tests@482bce4f]" started-at="2021-07-25T09:24:26 IST" name="testScriptCall1" description="Verify User lands on Pricing Page" finished-at="2021-07-25T09:24:56 IST" duration-ms="29656" status="PASS">
+        <test-method signature="testScriptCall1()[pri:0, instance:com.demo.qa.testcases.Blueapron_Tests@140c9f39]" started-at="2021-07-27T19:40:42 IST" name="testScriptCall1" description="Verify User lands on Pricing Page" finished-at="2021-07-27T19:41:10 IST" duration-ms="27753" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScriptCall1 -->
-        <test-method signature="testScriptCall2()[pri:1, instance:com.demo.qa.testcases.Blueapron_Tests@482bce4f]" started-at="2021-07-25T09:24:56 IST" name="testScriptCall2" description="Verify Cost And Shipping Charges For 2-Serving Signature" finished-at="2021-07-25T09:25:17 IST" duration-ms="20768" status="PASS">
+        <test-method signature="testScriptCall2()[pri:1, instance:com.demo.qa.testcases.Blueapron_Tests@140c9f39]" started-at="2021-07-27T19:41:10 IST" name="testScriptCall2" description="Verify Cost And Shipping Charges For 2-Serving Signature" finished-at="2021-07-27T19:41:30 IST" duration-ms="20263" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScriptCall2 -->
-        <test-method signature="testScriptCall3()[pri:2, instance:com.demo.qa.testcases.Blueapron_Tests@482bce4f]" started-at="2021-07-25T09:25:17 IST" name="testScriptCall3" description="Verify Cost And Shipping Charges" finished-at="2021-07-25T09:25:17 IST" duration-ms="90" status="PASS">
+        <test-method signature="testScriptCall3()[pri:2, instance:com.demo.qa.testcases.Blueapron_Tests@140c9f39]" started-at="2021-07-27T19:41:30 IST" name="testScriptCall3" description="Verify Cost And Shipping Charges" finished-at="2021-07-27T19:41:30 IST" duration-ms="284" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScriptCall3 -->
-        <test-method signature="testScriptCall4()[pri:3, instance:com.demo.qa.testcases.Blueapron_Tests@482bce4f]" started-at="2021-07-25T09:25:17 IST" name="testScriptCall4" description="Change 2-Serving Signature from three recipes to two recipes per week" finished-at="2021-07-25T09:25:17 IST" duration-ms="274" status="PASS">
+        <test-method signature="testScriptCall4()[pri:3, instance:com.demo.qa.testcases.Blueapron_Tests@140c9f39]" started-at="2021-07-27T19:41:30 IST" name="testScriptCall4" description="Change 2-Serving Signature from three recipes to two recipes per week" finished-at="2021-07-27T19:41:33 IST" duration-ms="2667" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScriptCall4 -->
-        <test-method signature="testScriptCall5()[pri:4, instance:com.demo.qa.testcases.Blueapron_Tests@482bce4f]" started-at="2021-07-25T09:25:17 IST" name="testScriptCall5" description="change 4-Serving Signature from two to three recipes per week" finished-at="2021-07-25T09:25:18 IST" duration-ms="1210" status="PASS">
+        <test-method signature="testScriptCall5()[pri:4, instance:com.demo.qa.testcases.Blueapron_Tests@140c9f39]" started-at="2021-07-27T19:41:33 IST" name="testScriptCall5" description="change 4-Serving Signature from two to three recipes per week" finished-at="2021-07-27T19:41:34 IST" duration-ms="1294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScriptCall5 -->
-        <test-method signature="testScriptCall6()[pri:5, instance:com.demo.qa.testcases.Blueapron_Tests@482bce4f]" started-at="2021-07-25T09:25:18 IST" name="testScriptCall6" description="Verify Cost and Shipping Charges after changing per week for 2-Serving Signature" finished-at="2021-07-25T09:25:39 IST" duration-ms="20202" status="PASS">
+        <test-method signature="testScriptCall6()[pri:5, instance:com.demo.qa.testcases.Blueapron_Tests@140c9f39]" started-at="2021-07-27T19:41:34 IST" name="testScriptCall6" description="Verify Cost and Shipping Charges after changing per week for 2-Serving Signature" finished-at="2021-07-27T19:41:55 IST" duration-ms="20951" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScriptCall6 -->
-        <test-method signature="testScriptCall7()[pri:6, instance:com.demo.qa.testcases.Blueapron_Tests@482bce4f]" started-at="2021-07-25T09:25:39 IST" name="testScriptCall7" description="Verify Cost and Shipping Charges after changing per week for 4-Serving Signature" finished-at="2021-07-25T09:25:39 IST" duration-ms="98" status="PASS">
+        <test-method signature="testScriptCall7()[pri:6, instance:com.demo.qa.testcases.Blueapron_Tests@140c9f39]" started-at="2021-07-27T19:41:55 IST" name="testScriptCall7" description="Verify Cost and Shipping Charges after changing per week for 4-Serving Signature" finished-at="2021-07-27T19:41:55 IST" duration-ms="96" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScriptCall7 -->
-        <test-method signature="testScriptCall8()[pri:7, instance:com.demo.qa.testcases.Blueapron_Tests@482bce4f]" started-at="2021-07-25T09:25:39 IST" name="testScriptCall8" description="Click Select Button for Any Item" finished-at="2021-07-25T09:25:44 IST" duration-ms="5606" status="PASS">
+        <test-method signature="testScriptCall8()[pri:7, instance:com.demo.qa.testcases.Blueapron_Tests@140c9f39]" started-at="2021-07-27T19:41:55 IST" name="testScriptCall8" description="Click Select Button for Any Item" finished-at="2021-07-27T19:42:03 IST" duration-ms="8076" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScriptCall8 -->
-        <test-method signature="testScriptCall9()[pri:8, instance:com.demo.qa.testcases.Blueapron_Tests@482bce4f]" started-at="2021-07-25T09:25:44 IST" name="testScriptCall9" description="Verif User is on Signup Page" finished-at="2021-07-25T09:26:05 IST" duration-ms="20998" status="PASS">
+        <test-method signature="testScriptCall9()[pri:8, instance:com.demo.qa.testcases.Blueapron_Tests@140c9f39]" started-at="2021-07-27T19:42:03 IST" name="testScriptCall9" description="Verif User is on Signup Page" finished-at="2021-07-27T19:42:25 IST" duration-ms="21252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScriptCall9 -->
-        <test-method signature="testScriptCall_1()[pri:9, instance:com.demo.qa.testcases.Blueapron_Tests@482bce4f]" started-at="2021-07-25T09:26:05 IST" name="testScriptCall_1" description="Verif Apple SignUp Button Is Displayed" finished-at="2021-07-25T09:26:06 IST" duration-ms="142" status="PASS">
+        <test-method signature="testScriptCall_1()[pri:9, instance:com.demo.qa.testcases.Blueapron_Tests@140c9f39]" started-at="2021-07-27T19:42:25 IST" name="testScriptCall_1" description="Verif Apple SignUp Button Is Displayed" finished-at="2021-07-27T19:42:25 IST" duration-ms="161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScriptCall_1 -->
-        <test-method signature="testScriptCall_2()[pri:10, instance:com.demo.qa.testcases.Blueapron_Tests@482bce4f]" started-at="2021-07-25T09:26:06 IST" name="testScriptCall_2" description="Verify Error When click the Continue button without entering the email address" finished-at="2021-07-25T09:26:07 IST" duration-ms="1274" status="PASS">
+        <test-method signature="testScriptCall_2()[pri:10, instance:com.demo.qa.testcases.Blueapron_Tests@140c9f39]" started-at="2021-07-27T19:42:25 IST" name="testScriptCall_2" description="Verify Error When click the Continue button without entering the email address" finished-at="2021-07-27T19:42:26 IST" duration-ms="1329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScriptCall_2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.qa.testcases.Blueapron_Tests@482bce4f]" started-at="2021-07-25T09:26:07 IST" name="tearDown" finished-at="2021-07-25T09:26:08 IST" duration-ms="873" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.qa.testcases.Blueapron_Tests@140c9f39]" started-at="2021-07-27T19:42:26 IST" name="tearDown" finished-at="2021-07-27T19:42:27 IST" duration-ms="875" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
