@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: 'ubuntu-latest'
+  name: 'Windows Agent'
 
 steps:
 - task: Maven@3
