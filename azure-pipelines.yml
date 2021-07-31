@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: 'Windows Agent'
+  name: 'New_Host'
 
 steps:
 - task: Maven@3
