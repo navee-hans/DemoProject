@@ -11,7 +11,7 @@
         <methods>
           <include name="getConfig"/>
           <include name="tearDown"/>
-          <include name="testScriptCall8"/>
+          <include name="testScriptCall_2"/>
         </methods>
       </class> <!-- com.demo.qa.testcases.Blueapron_Tests -->
     </classes>

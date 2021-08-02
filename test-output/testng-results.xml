@@ -1,61 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-27T19:40:42 IST" name="Automation Cases" finished-at="2021-07-27T19:42:26 IST" duration-ms="104247">
+  <suite started-at="2021-08-02T16:22:53 IST" name="Automation Cases" finished-at="2021-08-02T16:25:34 IST" duration-ms="161065">
     <groups>
     </groups>
-    <test started-at="2021-07-27T19:40:42 IST" name="Application Sanity Cases" finished-at="2021-07-27T19:42:26 IST" duration-ms="104247">
+    <test started-at="2021-08-02T16:22:53 IST" name="Application Sanity Cases" finished-at="2021-08-02T16:25:34 IST" duration-ms="161065">
       <class name="com.demo.qa.testcases.Blueapron_Tests">
-        <test-method is-config="true" signature="getConfig()[pri:0, instance:com.demo.qa.testcases.Blueapron_Tests@140c9f39]" started-at="2021-07-27T19:40:23 IST" name="getConfig" finished-at="2021-07-27T19:40:42 IST" duration-ms="18612" status="PASS">
+        <test-method is-config="true" signature="getConfig()[pri:0, instance:com.demo.qa.testcases.Blueapron_Tests@1f97cf0d]" started-at="2021-08-02T16:22:47 IST" name="getConfig" finished-at="2021-08-02T16:22:53 IST" duration-ms="6242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getConfig -->
-        <test-method signature="testScriptCall1()[pri:0, instance:com.demo.qa.testcases.Blueapron_Tests@140c9f39]" started-at="2021-07-27T19:40:42 IST" name="testScriptCall1" description="Verify User lands on Pricing Page" finished-at="2021-07-27T19:41:10 IST" duration-ms="27753" status="PASS">
+        <test-method signature="testScriptCall1()[pri:0, instance:com.demo.qa.testcases.Blueapron_Tests@1f97cf0d]" started-at="2021-08-02T16:22:53 IST" name="testScriptCall1" description="Verify User lands on Pricing Page" finished-at="2021-08-02T16:23:20 IST" duration-ms="27297" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScriptCall1 -->
-        <test-method signature="testScriptCall2()[pri:1, instance:com.demo.qa.testcases.Blueapron_Tests@140c9f39]" started-at="2021-07-27T19:41:10 IST" name="testScriptCall2" description="Verify Cost And Shipping Charges For 2-Serving Signature" finished-at="2021-07-27T19:41:30 IST" duration-ms="20263" status="PASS">
+        <test-method signature="testScriptCall2()[pri:1, instance:com.demo.qa.testcases.Blueapron_Tests@1f97cf0d]" started-at="2021-08-02T16:23:20 IST" name="testScriptCall2" description="Verify Cost And Shipping Charges For 2-Serving Signature" finished-at="2021-08-02T16:23:41 IST" duration-ms="20731" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScriptCall2 -->
-        <test-method signature="testScriptCall3()[pri:2, instance:com.demo.qa.testcases.Blueapron_Tests@140c9f39]" started-at="2021-07-27T19:41:30 IST" name="testScriptCall3" description="Verify Cost And Shipping Charges" finished-at="2021-07-27T19:41:30 IST" duration-ms="284" status="PASS">
+        <test-method signature="testScriptCall3()[pri:2, instance:com.demo.qa.testcases.Blueapron_Tests@1f97cf0d]" started-at="2021-08-02T16:23:41 IST" name="testScriptCall3" description="Verify Cost And Shipping Charges" finished-at="2021-08-02T16:23:41 IST" duration-ms="121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScriptCall3 -->
-        <test-method signature="testScriptCall4()[pri:3, instance:com.demo.qa.testcases.Blueapron_Tests@140c9f39]" started-at="2021-07-27T19:41:30 IST" name="testScriptCall4" description="Change 2-Serving Signature from three recipes to two recipes per week" finished-at="2021-07-27T19:41:33 IST" duration-ms="2667" status="PASS">
+        <test-method signature="testScriptCall4()[pri:3, instance:com.demo.qa.testcases.Blueapron_Tests@1f97cf0d]" started-at="2021-08-02T16:23:41 IST" name="testScriptCall4" description="Change 2-Serving Signature from three recipes to two recipes per week" finished-at="2021-08-02T16:23:41 IST" duration-ms="263" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScriptCall4 -->
-        <test-method signature="testScriptCall5()[pri:4, instance:com.demo.qa.testcases.Blueapron_Tests@140c9f39]" started-at="2021-07-27T19:41:33 IST" name="testScriptCall5" description="change 4-Serving Signature from two to three recipes per week" finished-at="2021-07-27T19:41:34 IST" duration-ms="1294" status="PASS">
+        <test-method signature="testScriptCall5()[pri:4, instance:com.demo.qa.testcases.Blueapron_Tests@1f97cf0d]" started-at="2021-08-02T16:23:41 IST" name="testScriptCall5" description="change 4-Serving Signature from two to three recipes per week" finished-at="2021-08-02T16:23:43 IST" duration-ms="1304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScriptCall5 -->
-        <test-method signature="testScriptCall6()[pri:5, instance:com.demo.qa.testcases.Blueapron_Tests@140c9f39]" started-at="2021-07-27T19:41:34 IST" name="testScriptCall6" description="Verify Cost and Shipping Charges after changing per week for 2-Serving Signature" finished-at="2021-07-27T19:41:55 IST" duration-ms="20951" status="PASS">
+        <test-method signature="testScriptCall6()[pri:5, instance:com.demo.qa.testcases.Blueapron_Tests@1f97cf0d]" started-at="2021-08-02T16:23:43 IST" name="testScriptCall6" description="Verify Cost and Shipping Charges after changing per week for 2-Serving Signature" finished-at="2021-08-02T16:24:03 IST" duration-ms="20153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScriptCall6 -->
-        <test-method signature="testScriptCall7()[pri:6, instance:com.demo.qa.testcases.Blueapron_Tests@140c9f39]" started-at="2021-07-27T19:41:55 IST" name="testScriptCall7" description="Verify Cost and Shipping Charges after changing per week for 4-Serving Signature" finished-at="2021-07-27T19:41:55 IST" duration-ms="96" status="PASS">
+        <test-method signature="testScriptCall7()[pri:6, instance:com.demo.qa.testcases.Blueapron_Tests@1f97cf0d]" started-at="2021-08-02T16:24:03 IST" name="testScriptCall7" description="Verify Cost and Shipping Charges after changing per week for 4-Serving Signature" finished-at="2021-08-02T16:24:03 IST" duration-ms="103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScriptCall7 -->
-        <test-method signature="testScriptCall8()[pri:7, instance:com.demo.qa.testcases.Blueapron_Tests@140c9f39]" started-at="2021-07-27T19:41:55 IST" name="testScriptCall8" description="Click Select Button for Any Item" finished-at="2021-07-27T19:42:03 IST" duration-ms="8076" status="PASS">
+        <test-method signature="testScriptCall8()[pri:7, instance:com.demo.qa.testcases.Blueapron_Tests@1f97cf0d]" started-at="2021-08-02T16:24:03 IST" name="testScriptCall8" description="Click Select Button for Any Item" finished-at="2021-08-02T16:24:14 IST" duration-ms="10623" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScriptCall8 -->
-        <test-method signature="testScriptCall9()[pri:8, instance:com.demo.qa.testcases.Blueapron_Tests@140c9f39]" started-at="2021-07-27T19:42:03 IST" name="testScriptCall9" description="Verif User is on Signup Page" finished-at="2021-07-27T19:42:25 IST" duration-ms="21252" status="PASS">
+        <test-method signature="testScriptCall9()[pri:8, instance:com.demo.qa.testcases.Blueapron_Tests@1f97cf0d]" started-at="2021-08-02T16:24:14 IST" name="testScriptCall9" description="Verif User is on Signup Page" finished-at="2021-08-02T16:24:54 IST" duration-ms="40100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScriptCall9 -->
-        <test-method signature="testScriptCall_1()[pri:9, instance:com.demo.qa.testcases.Blueapron_Tests@140c9f39]" started-at="2021-07-27T19:42:25 IST" name="testScriptCall_1" description="Verif Apple SignUp Button Is Displayed" finished-at="2021-07-27T19:42:25 IST" duration-ms="161" status="PASS">
+        <test-method signature="testScriptCall_1()[pri:9, instance:com.demo.qa.testcases.Blueapron_Tests@1f97cf0d]" started-at="2021-08-02T16:24:54 IST" name="testScriptCall_1" description="Verif Apple SignUp Button Is Displayed" finished-at="2021-08-02T16:25:14 IST" duration-ms="20022" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScriptCall_1 -->
-        <test-method signature="testScriptCall_2()[pri:10, instance:com.demo.qa.testcases.Blueapron_Tests@140c9f39]" started-at="2021-07-27T19:42:25 IST" name="testScriptCall_2" description="Verify Error When click the Continue button without entering the email address" finished-at="2021-07-27T19:42:26 IST" duration-ms="1329" status="PASS">
+        <test-method signature="testScriptCall_2()[pri:10, instance:com.demo.qa.testcases.Blueapron_Tests@1f97cf0d]" started-at="2021-08-02T16:25:14 IST" name="testScriptCall_2" description="Verify Error When click the Continue button without entering the email address" finished-at="2021-08-02T16:25:34 IST" duration-ms="20016" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":".//button[.='Continue']"}
+  (Session info: chrome=92.0.4515.107)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CI3J417', ip: '172.25.96.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\Navee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51791}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 57596c033f905d675077fb0ba2992c8e
+*** Element info: {Using=xpath, value=.//button[.='Continue']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//button[.='Continue']"}
+  (Session info: chrome=92.0.4515.107)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CI3J417', ip: '172.25.96.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\Navee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51791}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 57596c033f905d675077fb0ba2992c8e
+*** Element info: {Using=xpath, value=.//button[.='Continue']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.demo.qa.pages.Blueapron_SignupPage.clickContinueButton(Blueapron_SignupPage.java:61)
+at com.demo.qa.testcases.Blueapron_Tests.testScriptCall_2(Blueapron_Tests.java:84)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScriptCall_2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.qa.testcases.Blueapron_Tests@140c9f39]" started-at="2021-07-27T19:42:26 IST" name="tearDown" finished-at="2021-07-27T19:42:27 IST" duration-ms="875" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.qa.testcases.Blueapron_Tests@1f97cf0d]" started-at="2021-08-02T16:25:34 IST" name="tearDown" finished-at="2021-08-02T16:25:35 IST" duration-ms="820" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
