@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: New_Host
+  vmImage: Test_Azure
 
 steps:
 - task: Maven@3
